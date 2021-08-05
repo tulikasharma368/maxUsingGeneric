@@ -11,7 +11,7 @@ public class FloatCompare {
 		if (max.compareTo(b)<0) {
 			max = b;
 		}
-		else if(max.compareTo(c)<0) {
+		if(max.compareTo(c)<0) {
 			max = c;
 		}
 		System.out.println(max);
